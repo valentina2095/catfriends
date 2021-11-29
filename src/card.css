@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Khula', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, rgb(192, 224, 255), rgb(255, 200, 237)) repeat
+    scroll 0% 0%;
+}
+
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size:400%;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-light-purple {
+  background-color: rgb(224, 240, 255);
+}
+
+.border {
+  border-radius: 25px;
+}
+
+.border-white {
+  border-color: white;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.pa3 {
+  padding: 1rem;
+}
+
+.ma2 {
+  margin: 1rem;
+}
+
+.tc { text-align: center; }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.02); }
